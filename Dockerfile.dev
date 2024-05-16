@@ -1,6 +1,6 @@
 FROM node:alpine
 
-WORKDIR /usr/app/web-app/
+WORKDIR /usr/app/react-web-app/
 
 COPY package.json ./
 

@@ -1,11 +1,11 @@
 version: '3'
 services: 
-  web-app:
+  react-web-app:
     build: 
       context: .
       dockerfile: Dockerfile.dev
     ports: 
       - "4000:4000"
     volumes: 
-      - /usr/app/web-app/node_modules
-      - .:/usr/app/web-app
+      - /usr/app/react-web-app/node_modules
+      - .:/usr/app/react-web-app

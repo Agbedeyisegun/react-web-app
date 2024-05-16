@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello World! This react web app
+          Hello World! This is Segun react web app build with dockerfile and docker-compose file
         </p>
         <a
           className="App-link"
